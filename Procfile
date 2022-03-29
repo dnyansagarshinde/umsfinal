@@ -1,1 +1,1 @@
-web: gunicorn app:app --keep-alive 90
+web: gunicorn myproject.wsgi
