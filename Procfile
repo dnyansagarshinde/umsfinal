@@ -1,1 +1,1 @@
-web: gunicorn umsfinal.wsgi
+web: gunicorn yourdjangoweb.wsgi --log-file -
